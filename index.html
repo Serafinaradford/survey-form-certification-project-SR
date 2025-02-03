@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+
+    <title>OUTDOOR ADVENTURES</title>
+    <link rel="stylesheet"
+    href="styles.css"/>
+    </head>
+    <body>
+    <h1 id="title"> OUTDOOR ADVENTURES </h1>
+    <p id="description">Welcome to Outdoor Adventures! This is the place where you will make forever memories and push yourself to your truest potential. Everything we do is based on your own personal goals which is why it is important for us to get to know you on this survey. We can’t wait to see you Summer 2025!</p>
+    
+    <form id="survey-form">
+
+      <fieldset>
+        <p>Contact inofrmation:</p>
+     <label id="name-label">First Name:<input 
+      id="name"
+      name="first-name"
+      type="text"
+      placeholder="Input First Name"
+      required/></label> 
+      
+      <label for="last-name">Last Name:<input 
+      id="last-name"
+      name="first-name"
+      type="text"
+    Placeholder="Insert Last Name"
+      required/></lable>
+
+      <label for="Date-of-Birth">Date of Birth <input
+      id="age"
+      type="date" 
+      required/></label>
+
+<label id="email-label">Email:<input id="email"
+name="email"
+type="email"
+placeholder="example@ewu.edu"
+required/></label>
+
+ <label id="number-label">Grade
+   <input id="number" type="number"
+Min="1"
+Max="12" 
+Placeholder="1-12"></label> 
+
+
+
+
+</fieldset>
+<p></p>
+<fieldset>
+
+<p>Personal Goals:</p>
+
+
+<label for="referrer">Are you interested in joining us for mental health coaching or physical health coaching?
+  <select id="dropdown"
+  name="referrer"> 
+  <option value="">(select one)</option>
+  <option value="1">Mental Health</option>
+  <option value="2">Physical Health</option>
+  <option value="3">Both</option> </select> 
+</fieldset>
+<p></p>
+<fieldset>
+  
+  <p>What kind of experience do you have being in the outdoors?</p>
+
+
+<label for="experience-type"><input id="experience"
+value="easy"
+type="radio"
+name="experience-type"
+class="inline"
+checked>Easy</label>
+
+<label for="experience-type"><input id="experience"
+value="moderate"
+type="radio"
+name="experience-type"
+class="inline"
+checked>Moderate</label>
+
+<label for="experience-type"><input id="experience"
+value="hard"
+type="radio"
+name="experience-type"
+class="inline"
+checked>Hard</label> 
+</fieldset>
+<p></p>
+<fieldset>
+  <p> Check all that Apply:</p>
+  <label for="my-checkbox">Interested in Hiking<input 
+  value="Hiking"
+  id="my-checkbox"
+  type="checkbox"
+  checked>
+
+  <label for="my-checkbox">Interested in Running<input id="my-checkbox"
+  value="runner"
+  type="checkbox"
+  checked>
+
+  <label for="my-checkbox">Interested in Yoga<input 
+  value="yoga"
+  id="my-checkbox"
+  type="checkbox"
+  checked>
+
+  <label for="my-checkbox">Interested in Mountain Biking<input id="my-checkbox"
+  value="mountian-biking"
+  type="checkbox"
+  checked>
+  </fieldset>
+  <p></p>
+  <fieldset>
+    <p>Is there anything else you’d like us to know? let us know if there’s any other details that we should be aware of to ensure the best experience for you this summer:<textarea></textarea></p>
+    </fieldset>
+    <p></p>
+    <input id="submit" type="submit">
+</form>
+</body>
+</html>
